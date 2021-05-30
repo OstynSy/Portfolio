@@ -22,3 +22,11 @@
   color: #61dafb;
 }
 
+.nav-bar{
+  background-color: transparent;
+  color: white;
+}
+
+.footer{
+  background-color: grey;
+}
