@@ -3,36 +3,34 @@ import './Home.css';
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  return (   
-    <div>
-      
-      <div class="grid-container">
-        <div id="grid-item1">
 
-          <div class="neon-wrapper">
-            <span class="txt" >Welcome!</span>
-            <span class="gradient"></span>
-            <span class="dodge"></span>
-          </div>
-
-          <div>
-            My name is Ostyn Sy and I am a CS Major.
-          </div>
-
-          <a class="arrow down" href="#grid-item2"></a>
-        </div>
-
-        <div id="grid-item2"> 
-          Mid 
-        </div>    
-
-        <div id="grid-item3">
-          Bot
-        </div>
-
+  return (
+    
+    <div class="container">
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">About</a>
+        <a href="#contact">Experience</a>
+        <a href="#about">Projects</a>
+        <a href="#about">Resume</a>
       </div>
-    </div>
-  );
+
+      <section id="sec-intro">
+        <div id="intro-title"><strong>Hello!</strong></div>
+        <div id="intro-name">My name is <strong>Ostyn Sy</strong>.</div>
+        <div id="intro-desc">I'm a fulltime student at <strong>San Francisco State University</strong> working on my <strong>Computer Science Major</strong>. Currently, I am focused on Software Engineering as a <strong>Fullstack Developer</strong>.</div>
+        <button id="button-contactme"> Contact Me</button>
+      </section>
+
+      <section id="sec-aboutme">
+
+      </section>
+
+      <footer>
+        <div>footer</div>
+      </footer>
+    </div>   
+  ); 
 };
 
 export default Home;

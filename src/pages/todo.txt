@@ -1,0 +1,9 @@
+1. Fix nav bar
+2. add about section
+3. add project section
+4. add experience section
+5. add languages icons
+6. Link resume
+7. add Logo
+8. add animations
+9. add footer
