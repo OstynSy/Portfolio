@@ -7,3 +7,6 @@
 7. add Logo
 8. add animations
 9. add footer
+10. loading animation
+11. buy google domain
+12. connect domain to github pages
