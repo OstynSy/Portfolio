@@ -69,33 +69,36 @@ h1, h2, h3, h4, h5, h6 {
     display: grid;
 
     grid-template-columns: repeat(10, 100px);
-    grid-template-rows: repeat(10, 100px);
+    grid-template-rows: repeat(6, 100px);
 }
 
 #intro-image{
-    grid-row: 4/8
+    grid-row: 2/3
 }
 
 /*Intro*/
 #intro-title{
     color: white;
-    font-size:80px; 
-    grid-column: 4/6;
-    grid-row: 4;
+    font-size:80px;
+    margin: 0px 20px;
+    grid-column: 4;
+    grid-row: 2;
 }
 
 #intro-name{
     color: white;
     font-size:60px; 
-    grid-column: 4/10;
-    grid-row: 5;
+    margin: 0px 20px;
+    grid-column: 4/11;
+    grid-row: 3;
 }
 
 #intro-desc{
     color: white;
     font-size:30px;
-    margin: 20px 0px; 
-    grid-area: "text3";
+    margin: 0px 20px; 
+    grid-column: 4/11;
+    grid-row: 4/5;
 }
 
 #button-contactme {
@@ -107,8 +110,9 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 40px 0px;
-    grid-area: "button";
+    margin: 20px 0px;
+    grid-column: 4/6;
+    grid-row: 6;
 }
 
 #button-contactme:hover {
