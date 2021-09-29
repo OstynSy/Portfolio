@@ -9,11 +9,6 @@ html, body{
     height: 100%;
 }
 
-.container{
-    background-image: linear-gradient(180deg, #000B34 0%, #00103C 30%, #012050 100%);
-    height: 100%;
-    width: 100%;
-}
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0px 0px 10px;
@@ -22,106 +17,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
 }
 
-/*Nav Bar*/
-.topnav {
-    background-color: #000B34;
-    overflow: hidden;
-    height: 100px;
-    padding: 0px 50px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    justify-content: center;
-}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: right;
-    color: #f2f2f2;
-    align-items: center;
-    text-align: center;
-    padding: 15px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
-  
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
 
-#logo-image{
-    float: left;
-}
-
-/* Intro Section*/
-#intro-sec{
-    margin: 200px 0px;
-}
-
-#intro-grid-container {
-    margin: 0px auto;
-    max-width: 100vh;
-    display: grid;
-    grid-template-rows: 100px 100px;
-    align-items: center;
-}
-
-#intro-image{
-    margin-top: 20px;
-    grid-row: 1/4
-}
-
-#intro-title{
-    color: white;
-    font-size:80px;
-    margin: 0px 20px;
-    grid-column: 2;
-    grid-row: 1;
-}
-
-#intro-name{
-    color: white;
-    font-size:60px; 
-    margin: 0px 20px;
-    grid-column: 2;
-    grid-row: 2;
-}
-
-#intro-desc{
-    color: white;
-    font-size:30px;
-    margin: 0px 20px; 
-    grid-column: 2;
-    grid-row: 3;
-}
-
-#button-contactme {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 20px;
-    grid-column: 2;
-    grid-row: 4;
-}
-
-#button-contactme a:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
-}
 
 /* About Me Section*/
 #sec-aboutme{

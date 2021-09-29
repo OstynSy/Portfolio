@@ -1,0 +1,60 @@
+/* Intro Section*/
+#intro-sec{
+    margin: 200px 0px;
+}
+
+#intro-grid-container {
+    margin: 0px auto;
+    max-width: 100vh;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    align-items: center;
+}
+
+#intro-image{
+    margin-top: 20px;
+    grid-row: 1/4
+}
+
+#intro-title{
+    color: white;
+    font-size:80px;
+    margin: 0px 20px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#intro-name{
+    color: white;
+    font-size:60px; 
+    margin: 0px 20px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#intro-desc{
+    color: white;
+    font-size:30px;
+    margin: 0px 20px; 
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#button-contactme {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 20px;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#button-contactme a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}

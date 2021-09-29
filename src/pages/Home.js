@@ -1,7 +1,9 @@
 import React, {useEffect} from 'react';
-import './Home.css';
 import { Link } from "react-router-dom";
 
+import { Layout } from '../layout/Layout';
+import Intro from '../components/Intro/Intro';
+import Projects from '../components/Projects/Projects';
 
 const Home = () => {
 
@@ -10,11 +12,14 @@ const Home = () => {
   }, [])
 
 
-
   return (
     
+    <Layout>
+      <Intro />
+      <Projects />
+    </Layout>
+    /*
     <div class="container">
-      
       <div class="topnav">
         <img id="logo-image" src={process.env.PUBLIC_URL + "images/logo.png"} width="40" height="40"/>
         <a href="#sec-exp">Experience</a>
@@ -60,7 +65,8 @@ const Home = () => {
       <footer>
         <div>footer</div>
       </footer>
-    </div>   
+    </div>
+    */
   ); 
 };
 
