@@ -2,7 +2,6 @@
 import React from 'react';
 import './NavBar.css';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-//import { DiCssdeck } from 'react-icons/di';
 
 
 const NavBar = () => {
@@ -14,9 +13,9 @@ const NavBar = () => {
             </div>
 
             <div id="component-buttons">
-                <a href="#sec-exp">Experience</a>
-                <a href="#sec-proj">Projects</a>
-                <a href="#sec-res">Resume</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
             </div>
 
             <div id="social-buttons">

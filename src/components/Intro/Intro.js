@@ -1,9 +1,5 @@
-//import Link from 'next/link';
 import React from 'react';
 import "./Intro.css"
-//import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-//import { DiCssdeck } from 'react-icons/di';
-
 
 const Intro = () => {
     return(
