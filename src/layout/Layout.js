@@ -7,7 +7,7 @@ import Footer from '../components/Footer/Footer';
 
 export const Layout = ({children}) => {
   return (
-    <div class="container">
+    <div className="container">
         <NavBar/>
         {children}
         <Footer />

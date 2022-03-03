@@ -3,7 +3,6 @@ import "./Intro.css"
 
 const Intro = () => {
     return(
-        <div>
             <section id="intro-sec">
                 <div id="intro-grid-container">
                     <div id="intro-title"><strong>Hello!</strong></div>
@@ -12,7 +11,6 @@ const Intro = () => {
                     <a id="button-contactme" href="mailto:ostynsy@gmail.com"> Contact Me</a>
                 </div>
             </section>
-        </div>
     )
     };
 

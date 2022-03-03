@@ -1,0 +1,19 @@
+#skills-sec{
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+#skills-grid-container{
+    margin-top: 20vh;
+}
+
+#skill-cards a{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#skill-cards a:hover{
+
+}

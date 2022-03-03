@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Layout } from '../layout/Layout';
 import Intro from '../components/Intro/Intro';
 import Projects from '../components/Projects/Projects';
+import Skills from '../components/Skills/Skills';
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
   return (
     <Layout>
       <Intro />
+      <Skills />
       <Projects />
     </Layout>
   ); 

@@ -13,9 +13,11 @@ const NavBar = () => {
             </div>
 
             <div id="component-buttons">
+                <a href="#skills-sec">Skills</a>
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
                 <a href="#resume">Resume</a>
+                <a href="#aboutme">About</a>
             </div>
 
             <div id="social-buttons">
