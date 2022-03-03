@@ -9,7 +9,7 @@ export const Layout = ({children}) => {
   return (
     <div class="container">
         <NavBar/>
-        <main>{children}</main>
+        {children}
         <Footer />
     </div>
   );
